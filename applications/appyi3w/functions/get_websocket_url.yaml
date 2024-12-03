@@ -1,0 +1,11 @@
+id: QmQY8EBvMxewWsa9F8ZdJ5PRTfRcsiJNqXy215UMJVdGXd
+description: Returns a socket url to the matched channel
+tags: []
+source: .
+trigger:
+    type: pub-sub
+    channel: ""
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getsocketurl

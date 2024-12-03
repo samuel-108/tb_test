@@ -1,0 +1,13 @@
+id: QmNM8mmVJcKeAs9qQZ6To3NMuHPuN96hiuXnyDAC8hb58X
+description: raas
+tags:
+    - asas
+local: false
+channel:
+    regex: false
+    match: qqw
+bridges:
+    mqtt:
+        enable: true
+    websocket:
+        enable: true
